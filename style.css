@@ -1,0 +1,93 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+  background-image: url("images/background.jpg");
+  background-size: 1994.25px 1329.5px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+/*nav bar*/
+.navbar-custom {
+  background-color: #A9BA9D;
+}
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+  color:black;
+  font-family: 'Merriweather', serif;
+}
+.navbar-custom .navbar-nav .nav-link {
+  color:black;
+  font-family: 'Merriweather', serif;
+}
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #FFFFFF;
+    background-color: #835C53;
+}
+
+.logo {
+  margin: 10px 10px 10px 10px
+}
+/*end of nav bar*/
+
+/*main*/
+#mainphoto {
+  margin-top: 15px;
+}
+
+main {
+  margin: 15px 15px 15px 15px;
+height: 100%;
+background:rgba(255,255,255, 0.7);
+line-height: 40px;
+}
+h2 {
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+h3 {
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+p {
+  margin-left: 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+div {
+  margin: auto;
+  width: 100%;
+}
+/*end of main*/
+
+/*Classes CSS*/
+
+.buttons {
+  text-align: center;
+}
+.btn-primary {
+
+color: #835C53;
+}
+.btn-lg {
+
+}
+/*End of CSS classes*/
+
+/*media queries*/
+@media (max-width: 575.98px) {
+
+img {
+  display:block;margin:0 auto;
+}
+}
+/*end of queries*/
+/*footer*/
+footer {
+  background-color: #A9BA9D;
+  text-align: center;
+  line-height: 30px;
+  font-family: 'Merriweather', serif;
+}
