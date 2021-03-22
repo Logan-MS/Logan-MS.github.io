@@ -73,10 +73,23 @@ div {
   display: flex;
   justify-content: center;
 }
-.btnaboutme {
-  margin: auto;
-  position: inherit;
+
+.linkcenter {
+  text-align: center;
 }
+
+.containeralign1 {
+  position: relative;
+  left: 150px;
+  padding: 10px 10px 10px 10px
+}
+
+.containeralign2 {
+  position: relative;
+  left: 10%;
+  padding: 10px 10px 10px 10px
+}
+
 /*End of CSS classes*/
 
 /*media queries*/
