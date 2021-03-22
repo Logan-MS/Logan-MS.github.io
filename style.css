@@ -64,15 +64,18 @@ div {
 
 /*Classes CSS*/
 
-.buttons {
+.custom-btn {
   text-align: center;
+  background-color:#A9BA9D !important;
 }
-.btn-primary {
 
-color: #835C53;
+.flxbxcenter {
+  display: flex;
+  justify-content: center;
 }
-.btn-lg {
-
+.btnaboutme {
+  margin: auto;
+  position: inherit;
 }
 /*End of CSS classes*/
 
@@ -88,6 +91,5 @@ img {
 footer {
   background-color: #A9BA9D;
   text-align: center;
-  line-height: 30px;
+  line-height: 50px;
   font-family: 'Merriweather', serif;
-}
