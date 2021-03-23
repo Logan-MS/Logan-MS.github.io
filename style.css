@@ -74,6 +74,12 @@ div {
   justify-content: center;
 }
 
+.flxbxcenter {
+  display: flex;
+  justify-content: center;
+    padding-top: 10px;
+}
+
 .linkcenter {
   text-align: center;
 }
