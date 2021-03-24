@@ -57,6 +57,7 @@ p {
   font-family: 'Open Sans', sans-serif;
 }
 div {
+  overflow: hidden;
   margin: auto;
   width: 100%;
 }
