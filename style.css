@@ -8,6 +8,14 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+h1 {
+    padding-top: 10px;
+}
+
+h2 {
+  padding-top: 10px;
+}
+
 /*nav bar*/
 .navbar-custom {
   background-color: #A9BA9D;
@@ -52,7 +60,7 @@ h3 {
   font-family: 'Merriweather', serif;
 }
 p {
-  margin-left: 15px;
+  margin: 15px 15px 15px 15px;
   font-family: 'Open Sans', sans-serif;
 }
 div {
