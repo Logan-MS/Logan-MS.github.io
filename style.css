@@ -140,6 +140,11 @@ footer {
 /*end of footer*/
 
 /*Links*/
+
+#btnlinks {
+  color:white;
+}
+
 a:link {
   color: #00263A;
 
