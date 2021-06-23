@@ -1,5 +1,5 @@
 /*fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 body {
@@ -18,21 +18,23 @@ h2 {
 
 /*nav bar*/
 .navbar-custom {
-  background-color: #A9BA9D;
+  background-color: #5E8AB4;
 }
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
   color:black;
-  font-family: 'Merriweather', serif;
+  font-family: 'Benne', serif;
+    font-size: 25px;
 }
 .navbar-custom .navbar-nav .nav-link {
   color:black;
-  font-family: 'Merriweather', serif;
+  font-family: 'Benne', serif;
+  font-size: 25px;
 }
 .navbar-custom .nav-item.active .nav-link,
 .navbar-custom .nav-item:hover .nav-link {
     color: #FFFFFF;
-    background-color: #835C53;
+    background-color: #515A6C;
 }
 
 .logo {
@@ -54,11 +56,11 @@ line-height: 40px;
 }
 h2 {
   text-align: center;
-  font-family: 'Merriweather', serif;
+  font-family: 'Benne', serif;
 }
 h3 {
   text-align: center;
-  font-family: 'Merriweather', serif;
+  font-family: 'Benne', serif;
 }
 p {
   margin: 35px 35px 35px 35px;
@@ -79,7 +81,7 @@ div {
 
 .custom-btn {
   text-align: center;
-  background-color:#A9BA9D !important;
+  background-color:#5E8AB4 !important;
 }
 
 .flxbxcenter {
@@ -111,9 +113,10 @@ div {
 
 .porthead {
   text-align: center;
-  color: #835C53;
+  color: #515A6C;
   padding-bottom: 10px;
-  font-family: 'Merriweather', serif;
+  font-family: 'Benne', serif;
+
 }
 
 /*End of CSS classes*/
@@ -128,7 +131,20 @@ img {
 /*end of queries*/
 /*footer*/
 footer {
-  background-color: #A9BA9D;
+  background-color: #5E8AB4;
   text-align: center;
   line-height: 50px;
-  font-family: 'Merriweather', serif;
+  font-family: 'Benne', serif;
+  font-size: 20px;
+}
+/*end of footer*/
+
+/*Links*/
+a:link {
+  color: #00263A;
+
+}
+
+a:visited {
+  color: #003DA5;
+}
