@@ -16,7 +16,7 @@ h2 {
 
 /*nav bar*/
 .navbar-custom {
-  background-color: none;
+  background-color: transparent;
 }
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
