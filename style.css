@@ -4,6 +4,7 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
+  background-image: url(background.png);
 }
 
 h1 {
@@ -16,7 +17,7 @@ h2 {
 
 /*nav bar*/
 .navbar-custom {
-  background-color: transparent;
+  background-color: rgb(94,138,180, 0.5);
 }
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
@@ -49,7 +50,7 @@ h2 {
 main {
 margin: 25px 25px 25px 25px;
 height: 100%;
-background:rgba(255,255,255, 0.7);
+background:rgba(255,255,255, 0.5);
 line-height: 40px;
 }
 h2 {
@@ -129,7 +130,7 @@ img {
 /*end of queries*/
 /*footer*/
 footer {
-  background-color: #5E8AB4;
+  background-color: rgb(94,138,180, 0.5);
   text-align: center;
   line-height: 50px;
   font-family: 'Benne', serif;
