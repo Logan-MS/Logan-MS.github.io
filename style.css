@@ -21,6 +21,12 @@ h2 {
   padding-top: 10px;
 }
 
+h4 {
+  padding-top: 20px;
+  text-align: center;
+  font-family: 'Benne', serif;
+}
+
 /*nav bar*/
 .navbar-custom {
   background-color: rgb(94,138,180, 0.5);
