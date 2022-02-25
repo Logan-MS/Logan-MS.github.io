@@ -1,51 +1,47 @@
 /*fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&family=Yellowtail&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 
 body {
-  font-family: 'Open Sans', sans-serif;
-  background-image: url(background.png);
-  background-size:cover;
-  max-width: 100%;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  font-family: "Quicksand", sans-serif;
+  background: #f5fbff !important;
 }
 
-
 h1 {
-    padding-top: 10px;
+  font-family: "Yellowtail", cursive;
+  padding-top: 10px;
 }
 
 h2 {
+  font-family: "Yellowtail", cursive;
   padding-top: 10px;
 }
 
 h4 {
   padding-top: 20px;
   text-align: center;
-  font-family: 'Benne', serif;
+  font-family: "Yellowtail", cursive;
 }
 
 /*nav bar*/
 .navbar-custom {
-  background-color: rgb(94,138,180, 0.5);
+  background-color: #343f51;
 }
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
-  color:black;
-  font-family: 'Benne', serif;
-    font-size: 25px;
+  color: #bb9709;
+  font-family: "Yellowtail", cursive;
+  font-size: 25px;
 }
 .navbar-custom .navbar-nav .nav-link {
-  color:black;
-  font-family: 'Benne', serif;
+  color: #bb9709;
+  font-family: "Yellowtail", cursive;
   font-size: 25px;
 }
 .navbar-custom .nav-item.active .nav-link,
 .navbar-custom .nav-item:hover .nav-link {
-    color: #FFFFFF;
-    background-color: #515A6C;
+  color: #ffffff;
+  background-color: #343f51;
 }
 
 .logo {
@@ -60,22 +56,23 @@ h4 {
 }
 
 main {
-margin: 25px 25px 25px 25px;
-height: 100%;
-background:rgba(255,255,255, 0.5);
-line-height: 40px;
+  margin: 25px 25px 25px 25px;
+  height: 100%;
+  background: #f5fbff;
+  line-height: 40px;
 }
 h2 {
   text-align: center;
-  font-family: 'Benne', serif;
+  color: #bb9709;
+  font-family: "Yellowtail", cursive;
 }
 h3 {
   text-align: center;
-  font-family: 'Benne', serif;
+  font-family: "Benne", serif;
 }
 p {
   margin: 35px 35px 35px 35px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 div {
   overflow: hidden;
@@ -91,7 +88,8 @@ div {
 }
 
 .custom-btn {
-  background-color:#5E8AB4 !important;
+  background-color: #343f51 !important;
+  font-family: "Quicksand", sans-serif;
 }
 
 .flxbxcenter {
@@ -102,7 +100,7 @@ div {
 .flxbxcenter {
   display: flex;
   justify-content: center;
-    padding-top: 10px;
+  padding-top: 10px;
 }
 
 .linkcenter {
@@ -112,54 +110,55 @@ div {
 .containeralign1 {
   position: relative;
   left: 150px;
-  padding: 10px 10px 10px 10px
+  padding: 10px 10px 10px 10px;
 }
 
 .containeralign2 {
   position: relative;
   left: 10%;
-  padding: 10px 10px 10px 10px
+  padding: 10px 10px 10px 10px;
 }
 
 .porthead {
   text-align: center;
-  color: #515A6C;
+  color: #343f51;
   padding-bottom: 10px;
-  font-family: 'Benne', serif;
-
+  font-family: "Benne", serif;
 }
 
 /*End of CSS classes*/
 
 /*media queries*/
 @media (max-width: 575.98px) {
-
-img {
-  display:block;margin:0 auto;
-}
+  img {
+    display: block;
+    margin: 0 auto;
+  }
 }
 /*end of queries*/
 /*footer*/
 footer {
-  background-color: rgb(94,138,180, 0.5);
+  background-color: #343f51;
   text-align: center;
   line-height: 50px;
-  font-family: 'Benne', serif;
+  font-family: "Benne", serif;
   font-size: 20px;
+  color: #f0f0f0;
 }
 /*end of footer*/
 
 /*Links*/
 
 #btnlinks {
-  color:white;
+  color: #bb9709;
 }
 
 a:link {
-  color: #00263A;
-
+  color: #f0f0f0;
+  text-decoration: none;
 }
 
 a:visited {
-  color: #003DA5;
+  color: #bb9709;
+  text-decoration: none;
 }
