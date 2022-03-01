@@ -10,6 +10,8 @@ body {
 h1 {
   font-family: "Yellowtail", cursive;
   padding-top: 10px;
+  text-align: center;
+  color: #bb9709;
 }
 
 h2 {
