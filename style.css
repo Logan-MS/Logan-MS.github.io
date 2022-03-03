@@ -164,3 +164,9 @@ a:visited {
   color: #bb9709;
   text-decoration: none;
 }
+
+/*Article Pages*/
+#imgart {
+  float: left;
+  margin: 15px 15px 15px 15px;
+}
