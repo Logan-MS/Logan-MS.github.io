@@ -153,9 +153,11 @@ footer {
 
 #btnlinks {
   color: #bb9709;
+  font-family: "Open Sans", sans-serif;
 }
 
 a:link {
+  font-family: "Yellowtail", cursive;
   color: #bb9709;
   text-decoration: none;
 }
