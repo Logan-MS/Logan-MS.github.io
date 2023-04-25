@@ -1,49 +1,49 @@
 /*fonts*/
-@import url("https://fonts.googleapis.com/css2?family=Quicksand&family=Yellowtail&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chivo+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Atomic+Age&display=swap");
 
 body {
-  font-family: "Quicksand", sans-serif;
-  background: #f5fbff !important;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-image: url(images/pexels-pixabay-326311.jpg) !important;
 }
 
 h1 {
-  font-family: "Yellowtail", cursive;
+  font-family: "Atomic Age", cursive;
   padding-top: 10px;
   text-align: center;
-  color: #bb9709;
+  color: #4f5902;
 }
 
 h2 {
-  font-family: "Yellowtail", cursive;
+  font-family: "Atomic Age", cursive;
   padding-top: 10px;
 }
 
 h4 {
   padding-top: 20px;
   text-align: center;
-  font-family: "Yellowtail", cursive;
+  font-family: "Atomic Age", cursive;
 }
 
 /*nav bar*/
 .navbar-custom {
-  background-color: #343f51;
+  background-color: #4f5902;
 }
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
-  color: #bb9709;
-  font-family: "Yellowtail", cursive;
+  color: #a67f5d;
+  font-family: "Atomic Age", cursive;
   font-size: 25px;
 }
 .navbar-custom .navbar-nav .nav-link {
-  color: #bb9709;
-  font-family: "Yellowtail", cursive;
+  color: #a67f5d;
+  font-family: "Atomic Age", cursive;
   font-size: 25px;
 }
 .navbar-custom .nav-item.active .nav-link,
 .navbar-custom .nav-item:hover .nav-link {
-  color: #ffffff;
-  background-color: #343f51;
+  color: #96a61f;
+  background-color: #1e3601;
 }
 
 .logo {
@@ -58,23 +58,22 @@ h4 {
 }
 
 main {
-  margin: 25px 25px 25px 25px;
-  height: 100%;
-  background: #f5fbff;
+  background: rgba(255, 255, 255, 0.606);
   line-height: 40px;
+  z-index: 100px;
 }
 h2 {
   text-align: center;
-  color: #bb9709;
-  font-family: "Yellowtail", cursive;
+  color: #4f5902;
+  font-family: "Atomic Age", cursive;
 }
 h3 {
   text-align: center;
-  font-family: "Benne", serif;
+  font-family: "Atomic Age", cursive;
 }
 p {
   margin: 35px 35px 35px 35px;
-  font-family: "Open Sans", sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 div {
   overflow: hidden;
@@ -90,7 +89,7 @@ div {
 }
 
 .custom-btn {
-  background-color: #343f51 !important;
+  background-color: #1e3601 !important;
   font-family: "Quicksand", sans-serif;
 }
 
@@ -125,9 +124,84 @@ div {
   text-align: center;
   color: #343f51;
   padding-bottom: 10px;
-  font-family: "Benne", serif;
+  font-family: "Atomic Age", cursive;
 }
 
+.vl {
+  border-right: 50px solid #4f5902;
+  height: 750px;
+  right: 150px;
+  position: absolute;
+  z-index: -100;
+}
+
+.vl2 {
+  border-right: 50px solid #4f5902;
+  height: 750px;
+  right: 50px;
+  position: absolute;
+  z-index: -100;
+}
+
+.portimg {
+  top: -50px;
+  left: -35px;
+  display: block;
+  z-index: 999;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+  overflow: hidden;
+}
+
+.magicwrapper {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.imghoverdesc {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #96a61fcd;
+  color: #231709;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 25px;
+  visibility: hidden;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.magicwrapper:hover .imghoverdesc {
+  visibility: visible;
+  opacity: 1;
+}
+
+.imgdesc {
+  transition: 0.2s;
+  transform: translateY(1em);
+}
+.magicwrapper:hover .imgdesc {
+  transform: translateY(0);
+}
+
+.magicwrapper:hover .portimg {
+  transform: scale(1.5);
+}
+
+.span-link {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
 /*End of CSS classes*/
 
 /*media queries*/
@@ -140,30 +214,30 @@ div {
 /*end of queries*/
 /*footer*/
 footer {
-  background-color: #343f51;
+  background-color: #4f5902;
   text-align: center;
   line-height: 50px;
-  font-family: "Benne", serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 20px;
-  color: #f0f0f0;
+  color: #231709;
 }
 /*end of footer*/
 
 /*Links*/
 
 #btnlinks {
-  color: #bb9709;
-  font-family: "Open Sans", sans-serif;
+  color: #a67f5d;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 a:link {
-  font-family: "Yellowtail", cursive;
-  color: #bb9709;
+  font-family: "Atomic Age", cursive;
+  color: #a67f5d;
   text-decoration: none;
 }
 
 a:visited {
-  color: #bb9709;
+  color: #96a61f;
   text-decoration: none;
 }
 
