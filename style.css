@@ -80,12 +80,29 @@ div {
   margin: auto;
   width: 100%;
 }
+
 /*end of main*/
 
 /*Classes CSS*/
 
-.gallerybackground {
-  background-image: none;
+.resumespecial {
+  background: none !important;
+}
+
+.resumeformattinghead {
+  line-height: 50px;
+}
+
+.resumeformattinglist {
+  font-size: 16px;
+  text-align: center;
+  list-style-position: inside;
+}
+
+.resumeeducation {
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
 }
 
 .custom-btn {

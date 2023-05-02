@@ -1,49 +1,48 @@
 /*General Styling*/
 
 /*ID styles */
-#unique  {
-  color:white;
+#unique {
+  color: white;
   background-color: #272727;
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 #special {
   background-color: #272727;
   color: white;
-  align-content:center;
+  align-content: center;
 }
 /*Class Styles*/
 .divmain {
-    background-color: rgba(255, 255, 255, 0.5);
-  }
+  background-color: rgba(255, 255, 255, 0.5);
+}
 .bgcustom {
-      background-color:#272727;
-    }
+  background-color: #272727;
+}
 
-    .facebook a:link {
-      color:#1778F2;
-    }
+.facebook a:link {
+  color: #1778f2;
+}
 
-    .twitter a:link {
-      color:#1DA1F2;
-    }
+.twitter a:link {
+  color: #1da1f2;
+}
 
-    .instagram a:link {
-      color:#DD2A7B;
-    }
+.instagram a:link {
+  color: #dd2a7b;
+}
 
-    .snapchat a:link {
+.snapchat a:link {
+  color: #fffc00;
+}
 
-      color:#fffc00;
-    }
+.linkedin a:link {
+  color: #0077b5;
+}
 
-    .linkedin a:link {
-      color:#0077b5;
-    }
-
-    a:visited {
-      color: white;
-    }
+a:visited {
+  color: white;
+}
 
 /*tag styles*/
 header {
@@ -52,14 +51,15 @@ header {
   margin: 0;
 }
 
-h1, h2 {
+h1,
+h2 {
   text-align: center;
-  background-color: #FC4C02;
+  background-color: #fc4c02;
   color: white;
-  font-family: 'Nerko One', cursive;
+  font-family: "Nerko One", cursive;
 }
 
-img{
+img {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -68,30 +68,26 @@ img{
   align-content: center;
 }
 
-div {
-
-}
-
 body {
   background-image: url("../images/bacgroundimage.jpg");
   background-size: cover;
 }
 
 p {
-  font-family: 'Poppins', sans-serif
+  font-family: "Poppins", sans-serif;
 }
 
 main {
-  color:#272727;
+  color: #272727;
 }
 
 nav {
-  font-family: 'Nerko One', cursive;
+  font-family: "Nerko One", cursive;
 }
 
 footer {
   background-color: #272727;
-  font-family: 'Nerko One', cursive;
+  font-family: "Nerko One", cursive;
   text-align: center;
   color: white;
 }
@@ -110,22 +106,20 @@ blockquote {
 /*CSS for adjusting site to be responsive at various breakpoints*/
 /*smallest screen support*/
 @media only screen and (max-device-width: 480px) {
- .container {
-   align-content: center;
-   margin: 0px;
-   padding: 0px;
-   font-size: 1.15em;
-
- }
- .card {
-   align-content: center;
-   margin: 0px;
-   padding: 0px;
- }
-
+  .container {
+    align-content: center;
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.15em;
+  }
+  .card {
+    align-content: center;
+    margin: 0px;
+    padding: 0px;
+  }
 }
 /*tablet screen support*/
-@media only screen and (max-device-width:768px) {
+@media only screen and (max-device-width: 768px) {
   .container {
     align-content: center;
     margin: 0px;
@@ -134,9 +128,8 @@ blockquote {
   }
 }
 /*desktop*/
-@media only screen and (max-device-width:1280px) {
-
+@media only screen and (max-device-width: 1280px) {
 }
 
 /*fonts used: Nerko for nav and display text. Poppins for general body text.*/
-@import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Poppins:ital@1&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nerko+One&family=Poppins:ital@1&display=swap");
