@@ -107,18 +107,8 @@ div {
 
 .custom-btn {
   background-color: #1e3601 !important;
-  font-family: "Quicksand", sans-serif;
-}
-
-.flxbxcenter {
-  display: flex;
-  justify-content: center;
-}
-
-.flxbxcenter {
-  display: flex;
-  justify-content: center;
-  padding-top: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin: 35px 35px 35px 35px;
 }
 
 .linkcenter {
@@ -219,6 +209,14 @@ div {
   left: 0;
   z-index: 1;
 }
+
+.centerrow {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 /*End of CSS classes*/
 
 /*media queries*/
@@ -242,9 +240,10 @@ footer {
 
 /*Links*/
 
-#btnlinks {
-  color: #a67f5d;
+.btnlinks {
+  color: #a67f5d !important;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 20px !important;
 }
 
 a:link {
