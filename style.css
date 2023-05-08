@@ -26,6 +26,11 @@ h4 {
 }
 
 /*nav bar*/
+
+.speciallink {
+  color: #96a61f !important;
+}
+
 .navbar-custom {
   background-color: #4f5902;
 }
@@ -84,6 +89,10 @@ div {
 /*end of main*/
 
 /*Classes CSS*/
+
+.copy {
+  font-size: 17px;
+}
 
 .resumespecial {
   background: none !important;
@@ -255,6 +264,13 @@ a:link {
 a:visited {
   color: #96a61f;
   text-decoration: none;
+}
+
+a.clarity:link {
+  color: blue;
+}
+a.clarity:visited {
+  color: purple;
 }
 
 /*Article Pages*/
